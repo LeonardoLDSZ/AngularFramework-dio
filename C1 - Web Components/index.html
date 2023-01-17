@@ -11,19 +11,32 @@
 </head>
 
 <body>
-    <div class="container">  
-        <div class="card">
-            <div class="card__left"></div>
-            <span>Leonardo Davi de Souza</span>
-            <a href="#">Darth Vader</a>
-            <p>Darth Vader procura desenvolvedores que saibam trabalhar com componentes </p>
-
-            <div class="card__right"></div>
-            <img src="assets/vader.png" alt="" srcset="">    
-        </div>
-    </div>
-    
-    <card-news></card-news>
+    <div class="app-root">  
+           
+    <card-news 
+        author="Sith Lord"
+        title="Darth Vader hires"
+        link-url="www.google.com/darth-vader"
+        photo="assets/vader.png"
+        content="Darth Vader looks for devs which have knowledge with components"    
+    >
+    </card-news>
+    <card-news       
+        author="Super Yoda"  
+        title="Yoda said the truth to the Republic"
+        link-url="www.google.com/yoda"      
+        photo="assets/yoda.jpg" 
+        content="Yoda is ready to say everything"    
+    >
+    </card-news>
+    <card-news   
+        author="Leia"      
+        title="Luke Skywalker: I'm always starving! HALP!"
+        link-url="www.google.com/luke-skywalker"      
+        photo="assets/luke-skywalker.jpg" 
+        content="Luke Skywalker is worried about lack of food, again. Seriously..."    
+    >
+    </card-news>
 </body>
 
 
