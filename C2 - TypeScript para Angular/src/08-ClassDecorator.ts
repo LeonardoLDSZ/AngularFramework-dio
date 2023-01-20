@@ -10,5 +10,5 @@ function apiVersion(version: string) {
 class Api {}
 
 const api = new Api();
-console.log(api.__version);
-console.log(api.__name);
+// console.log(api.__version);
+// console.log(api.__name);
