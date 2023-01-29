@@ -1,0 +1,24 @@
+# Requesitos
+
+- Node & NPM (nodejs.org)
+
+- Visual Studio code (www.code.visualstudio.com/)
+  - Angular Language Service*
+  - Auto Close Tag*
+  - Auto Rename Tag*
+  - Tema (*opcional)
+  - Icones (*opcional)
+  - editorConfig, Prettier, eslint
+
+- Angular
+  - npm install -g @angular/cli@14.1.2
+
+# Anotações importantes
+
+cd life-cycle
+
+- ngOn
+
+comandos terminal
+- code . ---- abre o editor de código especificamente na pasta desejada
+- ng generate component fulano (ng g c nome)
